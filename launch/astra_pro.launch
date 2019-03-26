@@ -112,7 +112,7 @@
 
     <group ns="$(arg rgb)">
 
-      <node pkg="image_proc" type="image_proc" name="image_proc">
+      <node pkg="image_proc" type="image_proc" name="image_proc"/>
 
       <node pkg="libuvc_camera" type="camera_node" name="astra_pro_uvc">
         <!-- Parameters used to find the camera -->
